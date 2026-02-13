@@ -1,0 +1,87 @@
+*{
+    font-family: 'inter', sans-serif;
+    margin:0px;
+    color:black;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
+        /* login page */
+
+.login_menu{
+    display:flex;
+    flex-direction: column;
+    height:750px;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.login_heading{
+    font-size:35px;
+}
+
+.login_option{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40px;
+    width:250px;
+    margin:12px 32px 12px 32px;
+    border-color:black;
+    border-width:1.5px;
+    border-radius:10px;
+    border-style:solid;
+    font-size:15px;
+}
+
+
+.login_heading{
+    margin-bottom:10px;
+}
+
+
+
+.create_account_link{
+    color:#0088CC;
+}
+
+#afs_login_logo{
+
+    height:70px;
+    padding:10px;
+}
+
+
+        /* editor page */
+
+
+
+.instructions{
+
+    font-size:20px;
+}
+
+
+#no_of_teachers{
+
+    margin-top:30px;
+}
+
+#no_of_teachers_textarea{
+
+    height:12px;
+    resize: none;
+    scrollbar-width: none;
+}
+
+#no_of_teachers_textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
